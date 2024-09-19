@@ -449,11 +449,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e376bf3c62fc043a8180501b268056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfItems: 0
-  score: 0
-  health: 0
-  weight: 0
-  speed: 0
-  menuLabel: 
-  dialouge: 
-  characterName: 
