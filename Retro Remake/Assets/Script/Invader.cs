@@ -28,7 +28,7 @@ public class Invader : MonoBehaviour
     {
         _animationFrame++;
 
-        if (_animationFrame)  
-            //too Fix
+        //if (_animationFrame)  
+            
     }
 }
