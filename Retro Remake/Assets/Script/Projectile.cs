@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour
 {
     public float moveSpeed;
     public GameObject projectile;
+    public GameObject explosionPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,8 @@ public class Projectile : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy")) 
-        { 
+        {
+           Instantiate(explosionPrefab, transform.position,Quaternion.identity); 
            Destroy(collision.gameObject);
            Destroy(projectile);
         }
